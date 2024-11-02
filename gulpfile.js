@@ -1,4 +1,5 @@
 const { src, dest, watch, series, parallel } = require('gulp');
+gulp.task('build', function() {
 
 // CSS Y SASS
 const sass = require('gulp-sass')(require('sass'));
